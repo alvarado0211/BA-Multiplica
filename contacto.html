@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1 style="color: white;">Formulario de Contacto</h1>
+        <nav>
+            <ol style="margin-left: 80%;"l>
+                <a href="index.html" style="color: white; margin-right: 2%;"><strong>Inicio</strong></a>
+                <a href="nosotros.html" style="color: white; margin-right: 2%;"><strong>Sobre nosotros</strong></a>
+                <a href="contacto.html" style="color: white;"><strong>Contacto</strong></a>
+            </ol>
+        </nav>
+    </header>
+    <fieldset>
+    <legend style="color: white;">Información Personal:</legend>
+    <h4 style="color: white;">Completa el siguiente Formulario</h4>
+      <form action="nota.txt" style="margin-top: 10%;">
+        <ul>
+            <label for="POST-name" style="color: white"> Nombre:</label>
+            <input id="POST-name" type="text" name="name" placeholder="Ingrese su nombre">
+        </ul><ul>
+        <label for="POST-phone" style="color: white">Telefono:</label>
+        <input id="POST-phone" type="tel" name="phone" placeholder="Indique su numero">
+        </ul>
+        <ul>
+            <label for="POST-mail" style="color: white;">Correo:</label>
+            <input id="POST-mail" type="email" name="email" placeholder="Indique su correo">
+        </ul>
+        <ul>
+            <label for="POST-message" style="color: white;">Consulta:</label>
+            <input id="POST-message" type="text" name="message" placeholder="Escriba su mensaje aqui">
+        </ul>
+        <ul>
+            <label for="Talle" style="color: white;">Talle: </label>
+                <select name="Talle" id="talle">
+                    <option value="L">Large</option>
+                    <option value="M">Medium</option>
+                    <option value="S">Small</option>
+                </select>
+        </ul>
+        <ol>
+            <input type="reset">
+            <input type="submit">
+        </ol>
+      </form>
+    </fieldset>
+</body>
+</html>
